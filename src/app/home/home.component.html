@@ -1,0 +1,15 @@
+<p>Course Name : {{course | uppercase}}</p>
+<p>Course Start Date : {{startDate | date}}</p>
+<p>Course Fee: {{courseFee | currency:"EUR"}}</p>
+
+<h2>Course Students</h2>
+<ul>
+    <li *ngFor="let student of students">
+        <div *ngIf="student.name.startsWith('S')">
+            <span><em>Name </em>: {{student.name}}</span>
+            <span><em>Gender</em>: {{student.gender}}</span>
+            <span><em>Course</em>: {{student.course}}</span>
+        </div>
+        
+    </li>
+</ul>

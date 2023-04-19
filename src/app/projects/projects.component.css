@@ -1,0 +1,28 @@
+
+li img{
+    height: 100px;
+    width: 100px;
+}
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+table, th, td{
+    border-bottom: 1px solid #ddd;
+    
+}
+tr:nth-child(even) {
+    background-color: #813333;
+}
+td, th{
+    padding: 20px;
+    text-align: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

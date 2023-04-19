@@ -1,0 +1,29 @@
+
+<!-- <p>{{data | json}}</p> -->
+<div >
+    <div class="search">
+        <input type="text" name="search" [(ngModel)] = "searchText"/>
+    </div>
+   <div class="dashboard">
+    <table >
+        <thead>
+            <tr>
+                <th>Country Name</th>
+                <th>Capital</th>
+                <th>Population</th>
+                <!-- <th>Currency</th> -->
+                <th>National flag</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let item of data">
+            <tr>
+                <td>{{item.name.common}}</td>
+                <td>{{item.capital}}</td>
+                <td>{{item.population}}</td>
+                <!-- <td>{{item.currencies.symbol}}</td> -->
+                <td><img [src]=item.flags.png alt="item.name.common"></td>
+            </tr>
+        </tbody>
+    </table>
+   </div> 
+</div>
