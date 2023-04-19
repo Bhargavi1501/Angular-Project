@@ -9,6 +9,7 @@ import { EmployeeComponent } from './employee/employee.component';
 import { Assignment1Component } from './assignment1/assignment1.component';
 import { Assignment2Component } from './assignment2/assignment2.component';
 import { Assignment3Component } from './assignment3/assignment3.component';
+import { TestComponent } from './test/test.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,8 @@ const routes: Routes = [
     {path:'assignmnet3', component:Assignment3Component}
 ]},
   {path: 'aboutus', component:AboutusComponent},
-  {path: 'employee', component:EmployeeComponent}
+  {path: 'employee', component:EmployeeComponent},
+  {path: 'test', component:TestComponent}
 ];
 
 @NgModule({

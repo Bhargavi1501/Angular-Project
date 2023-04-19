@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   title:string = "Angular Learning Journey";
 
-  navitems: Array<string> = ["home", "projects", "contactus", "assignments", "aboutus", "employee"];
+  navitems: Array<string> = ["home", "projects", "contactus", "assignments", "aboutus", "employee", "tests"];
 
 
 }

@@ -28,8 +28,8 @@ jobs:
     - name: Deploy production to Netlify
       uses: South-Paw/action-netlify-deploy@v1.2.0
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
+        github-token: ${{ secrets.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 }}
+        netlify-auth-token: ${{ secrets.WBb4Y49zG3Xo0kokhgIgiXv5rNpDFYw329hGSw_delY }}
+        netlify-site-id: ${{ secrets.timely-paprenjak-59bef9.netlify.app }}
         build-dir: './build'
         comment-on-commit: true

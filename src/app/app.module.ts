@@ -19,6 +19,7 @@ import { EmployeeComponent } from './employee/employee.component';
 import { Assignment1Component } from './assignment1/assignment1.component';
 import { Assignment2Component } from './assignment2/assignment2.component';
 import { Assignment3Component } from './assignment3/assignment3.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { Assignment3Component } from './assignment3/assignment3.component';
     EmployeeComponent,
     Assignment1Component,
     Assignment2Component,
-    Assignment3Component
+    Assignment3Component,
+    TestComponent
   ],
   imports: [
     BrowserModule,

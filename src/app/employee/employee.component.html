@@ -1,7 +1,7 @@
 
 <h2>Employee Data</h2>
 <ul >
-    <li *ngFor = "let emp of employeeData">
-        {{emp.data[0].id}}
+    <li *ngFor = "let emp in employeeData">
+        {{emp.data.id}}
     </li>
 </ul>
